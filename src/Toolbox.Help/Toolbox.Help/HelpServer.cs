@@ -29,6 +29,19 @@ namespace Toolbox.Help
             Handlers["html"] = new HttpHandler();
         }
 
+        /// <summary>
+        /// Initializes a new instance of <see cref="HelpServer"/>.
+        /// </summary>
+        /// <param name="type">Type that is located on the same level as the help files in the target assembly.</param>
+        /// <param name="namespacePrefix">Name of the help folder.</param>
+        /// <remarks>
+        /// The type must bei in the default namespace of the assembly, since the namespace prefix is inferred from it.
+        /// </remarks>
+        public HelpServer(Type type, string folder)
+            : this(type.Assembly, type.Namespace + "." + folder)
+        {
+        }
+
         private Assembly Assembly { get; }
         private string NamespacePrefix { get; }
         private HttpListener Listener { get; set; }
