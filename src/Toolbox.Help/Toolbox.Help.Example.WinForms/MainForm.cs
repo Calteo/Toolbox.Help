@@ -1,12 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
+using Toolbox.Help.WinForms;
 
 namespace Toolbox.Help.Example.WinForms
 {
@@ -26,7 +20,7 @@ namespace Toolbox.Help.Example.WinForms
 
         private void MainFormShown(object sender, EventArgs e)
         {
-            HelpServer = new HelpServer(GetType().Assembly, GetType().Namespace + ".Help");
+            HelpServer = new HelpServer(GetType(), "Help");
             HelpServer.Handlers["info"] = new InfoHandler();
             HelpServer.Enabled = true;
           
@@ -34,8 +28,11 @@ namespace Toolbox.Help.Example.WinForms
             {                
                 Dock = DockStyle.Fill
             };
-            Controls.Add(Browser);
 
+            tableLayoutPanel.Controls.Add(Browser);
+            tableLayoutPanel.SetColumnSpan(Browser, 3);
+            tableLayoutPanel.SetCellPosition(Browser, new TableLayoutPanelCellPosition(0, 1));
+            
             Browser.DocumentTitleChanged += BrowserDocumentTitleChanged;
 
             Browser.Navigate(HelpServer.GetUrl("index.html"));
@@ -44,6 +41,18 @@ namespace Toolbox.Help.Example.WinForms
         private void BrowserDocumentTitleChanged(object sender, EventArgs e)
         {
             Text = Prefix + " - " + Browser.DocumentTitle;
+        }
+
+        private void HelpProviderHelpRequested(object sender, HelpRequestedEventArgs e)
+        {
+            Browser.Navigate(HelpServer.GetUrl(e.Url));
+        }
+
+        private void ButtonNavigateClick(object sender, EventArgs e)
+        {
+            var url = textBox.Text.IsEmpty() ? "index.html" : textBox.Text;
+
+            Browser.Navigate(HelpServer.GetUrl(url));
         }
     }
 }

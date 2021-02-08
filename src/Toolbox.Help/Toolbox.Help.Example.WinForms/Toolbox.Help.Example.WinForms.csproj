@@ -11,6 +11,12 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Remove="Help\button.html" />
+    <None Remove="Help\edit.html" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Toolbox.Help.WinForms\Toolbox.Help.WinForms.csproj" />
     <ProjectReference Include="..\Toolbox.Help\Toolbox.Help.csproj" />
   </ItemGroup>
 
