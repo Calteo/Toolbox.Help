@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class RequestHandler
+    <title>Class ScssHandler
    | Toolbox </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class RequestHandler
+    <meta name="title" content="Class ScssHandler
    | Toolbox ">
     <meta name="generator" content="docfx 2.56.7.0">
     
@@ -68,23 +68,24 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Toolbox.Help.Handlers.RequestHandler">
+            <article class="content wrap" id="_content" data-uid="Toolbox.Help.Handlers.ScssHandler">
   
   
-  <h1 id="Toolbox_Help_Handlers_RequestHandler" data-uid="Toolbox.Help.Handlers.RequestHandler" class="text-break">Class RequestHandler
+  <h1 id="Toolbox_Help_Handlers_ScssHandler" data-uid="Toolbox.Help.Handlers.ScssHandler" class="text-break">Class ScssHandler
   </h1>
-  <div class="markdown level0 summary"><p>Base class for handling help requests from <a class="xref" href="Toolbox.Help.HelpServer.html">HelpServer</a>.</p>
-</div>
+  <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">RequestHandler</span></div>
-      <div class="level2"><a class="xref" href="Toolbox.Help.Handlers.HttpHandler.html">HttpHandler</a></div>
-      <div class="level2"><a class="xref" href="Toolbox.Help.Handlers.ScssHandler.html">ScssHandler</a></div>
+    <div class="level1"><a class="xref" href="Toolbox.Help.Handlers.RequestHandler.html">RequestHandler</a></div>
+    <div class="level2"><span class="xref">ScssHandler</span></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="Toolbox.Help.Handlers.RequestHandler.html#Toolbox_Help_Handlers_RequestHandler_ReplyWithError_System_Net_HttpListenerResponse_System_Net_HttpStatusCode_">RequestHandler.ReplyWithError(HttpListenerResponse, HttpStatusCode)</a>
+    </div>
     <div>
       <span class="xref">System.Object.Equals(System.Object)</span>
     </div>
@@ -109,70 +110,26 @@
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Toolbox.Help.Handlers.html">Toolbox.Help.Handlers</a></h6>
   <h6><strong>Assembly</strong>: Toolbox.Help.dll</h6>
-  <h5 id="Toolbox_Help_Handlers_RequestHandler_syntax">Syntax</h5>
+  <h5 id="Toolbox_Help_Handlers_ScssHandler_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class RequestHandler</code></pre>
+    <pre><code class="lang-csharp hljs">public class ScssHandler : RequestHandler</code></pre>
   </div>
   <h3 id="methods">Methods
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Calteo/Toolbox.Help/new/main/apiSpec/new?filename=Toolbox_Help_Handlers_RequestHandler_ReplyWithError_System_Net_HttpListenerResponse_System_Net_HttpStatusCode_.md&amp;value=---%0Auid%3A%20Toolbox.Help.Handlers.RequestHandler.ReplyWithError(System.Net.HttpListenerResponse%2CSystem.Net.HttpStatusCode)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Calteo/Toolbox.Help/new/main/apiSpec/new?filename=Toolbox_Help_Handlers_ScssHandler_SendResponse_System_Net_HttpListenerRequest_System_Net_HttpListenerResponse_System_IO_Stream_.md&amp;value=---%0Auid%3A%20Toolbox.Help.Handlers.ScssHandler.SendResponse(System.Net.HttpListenerRequest%2CSystem.Net.HttpListenerResponse%2CSystem.IO.Stream)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Calteo/Toolbox.Help/blob/main/src/Toolbox.Help/Handlers/RequestHandler.cs/#L38">View Source</a>
+    <a href="https://github.com/Calteo/Toolbox.Help/blob/main/src/Toolbox.Help/Handlers/ScssHandler.cs/#L11">View Source</a>
   </span>
-  <a id="Toolbox_Help_Handlers_RequestHandler_ReplyWithError_" data-uid="Toolbox.Help.Handlers.RequestHandler.ReplyWithError*"></a>
-  <h4 id="Toolbox_Help_Handlers_RequestHandler_ReplyWithError_System_Net_HttpListenerResponse_System_Net_HttpStatusCode_" data-uid="Toolbox.Help.Handlers.RequestHandler.ReplyWithError(System.Net.HttpListenerResponse,System.Net.HttpStatusCode)">ReplyWithError(HttpListenerResponse, HttpStatusCode)</h4>
-  <div class="markdown level1 summary"><p>Send an <span class="xref">System.Net.HttpStatusCode</span> as the response</p>
-</div>
+  <a id="Toolbox_Help_Handlers_ScssHandler_SendResponse_" data-uid="Toolbox.Help.Handlers.ScssHandler.SendResponse*"></a>
+  <h4 id="Toolbox_Help_Handlers_ScssHandler_SendResponse_System_Net_HttpListenerRequest_System_Net_HttpListenerResponse_System_IO_Stream_" data-uid="Toolbox.Help.Handlers.ScssHandler.SendResponse(System.Net.HttpListenerRequest,System.Net.HttpListenerResponse,System.IO.Stream)">SendResponse(HttpListenerRequest, HttpListenerResponse, Stream)</h4>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void ReplyWithError(HttpListenerResponse response, HttpStatusCode code)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Net.HttpListenerResponse</span></td>
-        <td><span class="parametername">response</span></td>
-        <td><p>The response to make.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Net.HttpStatusCode</span></td>
-        <td><span class="parametername">code</span></td>
-        <td><p>The code the the response gets.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 id="Toolbox_Help_Handlers_RequestHandler_ReplyWithError_System_Net_HttpListenerResponse_System_Net_HttpStatusCode__remarks">Remarks</h5>
-  <div class="markdown level1 remarks"><p>The response will be closed.</p>
-</div>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/Calteo/Toolbox.Help/new/main/apiSpec/new?filename=Toolbox_Help_Handlers_RequestHandler_SendResponse_System_Net_HttpListenerRequest_System_Net_HttpListenerResponse_System_IO_Stream_.md&amp;value=---%0Auid%3A%20Toolbox.Help.Handlers.RequestHandler.SendResponse(System.Net.HttpListenerRequest%2CSystem.Net.HttpListenerResponse%2CSystem.IO.Stream)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Calteo/Toolbox.Help/blob/main/src/Toolbox.Help/Handlers/RequestHandler.cs/#L17">View Source</a>
-  </span>
-  <a id="Toolbox_Help_Handlers_RequestHandler_SendResponse_" data-uid="Toolbox.Help.Handlers.RequestHandler.SendResponse*"></a>
-  <h4 id="Toolbox_Help_Handlers_RequestHandler_SendResponse_System_Net_HttpListenerRequest_System_Net_HttpListenerResponse_System_IO_Stream_" data-uid="Toolbox.Help.Handlers.RequestHandler.SendResponse(System.Net.HttpListenerRequest,System.Net.HttpListenerResponse,System.IO.Stream)">SendResponse(HttpListenerRequest, HttpListenerResponse, Stream)</h4>
-  <div class="markdown level1 summary"><p>Send the response for a given reqeuest</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public virtual void SendResponse(HttpListenerRequest request, HttpListenerResponse response, Stream stream)</code></pre>
+    <pre><code class="lang-csharp hljs">public override void SendResponse(HttpListenerRequest request, HttpListenerResponse response, Stream stream)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -187,23 +144,22 @@
       <tr>
         <td><span class="xref">System.Net.HttpListenerRequest</span></td>
         <td><span class="parametername">request</span></td>
-        <td><p>The requested information.</p>
-</td>
+        <td></td>
       </tr>
       <tr>
         <td><span class="xref">System.Net.HttpListenerResponse</span></td>
         <td><span class="parametername">response</span></td>
-        <td><p>The response the make.</p>
-</td>
+        <td></td>
       </tr>
       <tr>
         <td><span class="xref">System.IO.Stream</span></td>
         <td><span class="parametername">stream</span></td>
-        <td><p>The ressource stream ot the requested url if it exists.</p>
-</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Toolbox.Help.Handlers.RequestHandler.html#Toolbox_Help_Handlers_RequestHandler_SendResponse_System_Net_HttpListenerRequest_System_Net_HttpListenerResponse_System_IO_Stream_">RequestHandler.SendResponse(HttpListenerRequest, HttpListenerResponse, Stream)</a></div>
 </article>
           </div>
           
@@ -212,10 +168,10 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/Calteo/Toolbox.Help/new/main/apiSpec/new?filename=Toolbox_Help_Handlers_RequestHandler.md&amp;value=---%0Auid%3A%20Toolbox.Help.Handlers.RequestHandler%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/Calteo/Toolbox.Help/new/main/apiSpec/new?filename=Toolbox_Help_Handlers_ScssHandler.md&amp;value=---%0Auid%3A%20Toolbox.Help.Handlers.ScssHandler%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/Calteo/Toolbox.Help/blob/main/src/Toolbox.Help/Handlers/RequestHandler.cs/#L9" class="contribution-link">View Source</a>
+                    <a href="https://github.com/Calteo/Toolbox.Help/blob/main/src/Toolbox.Help/Handlers/ScssHandler.cs/#L9" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

@@ -70,6 +70,25 @@ references:
   isSpec: "True"
   fullName: Toolbox.Help.Handlers.RequestHandler.SendResponse
   nameWithType: RequestHandler.SendResponse
+- uid: Toolbox.Help.Handlers.ScssHandler
+  name: ScssHandler
+  href: api/Toolbox.Help.Handlers.ScssHandler.html
+  commentId: T:Toolbox.Help.Handlers.ScssHandler
+  fullName: Toolbox.Help.Handlers.ScssHandler
+  nameWithType: ScssHandler
+- uid: Toolbox.Help.Handlers.ScssHandler.SendResponse(System.Net.HttpListenerRequest,System.Net.HttpListenerResponse,System.IO.Stream)
+  name: SendResponse(HttpListenerRequest, HttpListenerResponse, Stream)
+  href: api/Toolbox.Help.Handlers.ScssHandler.html#Toolbox_Help_Handlers_ScssHandler_SendResponse_System_Net_HttpListenerRequest_System_Net_HttpListenerResponse_System_IO_Stream_
+  commentId: M:Toolbox.Help.Handlers.ScssHandler.SendResponse(System.Net.HttpListenerRequest,System.Net.HttpListenerResponse,System.IO.Stream)
+  fullName: Toolbox.Help.Handlers.ScssHandler.SendResponse(System.Net.HttpListenerRequest, System.Net.HttpListenerResponse, System.IO.Stream)
+  nameWithType: ScssHandler.SendResponse(HttpListenerRequest, HttpListenerResponse, Stream)
+- uid: Toolbox.Help.Handlers.ScssHandler.SendResponse*
+  name: SendResponse
+  href: api/Toolbox.Help.Handlers.ScssHandler.html#Toolbox_Help_Handlers_ScssHandler_SendResponse_
+  commentId: Overload:Toolbox.Help.Handlers.ScssHandler.SendResponse
+  isSpec: "True"
+  fullName: Toolbox.Help.Handlers.ScssHandler.SendResponse
+  nameWithType: ScssHandler.SendResponse
 - uid: Toolbox.Help.HelpServer
   name: HelpServer
   href: api/Toolbox.Help.HelpServer.html

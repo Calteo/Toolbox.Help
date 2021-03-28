@@ -21,7 +21,19 @@
       "output": {
         ".html": {
           "relative_path": "api/Toolbox.Help.Handlers.RequestHandler.html",
-          "hash": "UnF7aiYkg2hNvOwVMXL1Dg=="
+          "hash": "XgY2FS4u8qY+iictZoZ0yQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Toolbox.Help.Handlers.ScssHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Toolbox.Help.Handlers.ScssHandler.html",
+          "hash": "4dX/1+ruN6rVfGoGxHNe1A=="
         }
       },
       "is_incremental": false,
@@ -33,7 +45,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Toolbox.Help.Handlers.html",
-          "hash": "O4hxnY+HAcF6FNqZRwejJg=="
+          "hash": "wpRdu6QlA/f6erwp5vQhYw=="
         }
       },
       "is_incremental": false,
@@ -45,7 +57,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Toolbox.Help.HelpServer.html",
-          "hash": "4THOpoJlvBe1MelLtAFTtQ=="
+          "hash": "aezkQLt0PQQVDQtxT+PCvQ=="
         }
       },
       "is_incremental": false,
@@ -129,7 +141,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "OenHeGvQlaO8fCmiznnc1Q=="
+          "hash": "EVDw7p53LGkMitpQzBsXUg=="
         }
       },
       "is_incremental": false,
@@ -237,7 +249,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 9,
+          "total_file_count": 10,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {
