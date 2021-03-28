@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <Version>1.0.1</Version>
+    <Authors>Calteo</Authors>
+    <Company>Calteo</Company>
+    <Description>Embedded help for windows applications</Description>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <Copyright>Copyright 2021 - Calteo</Copyright>
+    <PackageProjectUrl>https://github.com/Calteo/Toolbox.Help</PackageProjectUrl>
+    <PackageIcon>toolbox.png</PackageIcon>
+    <AssemblyVersion>1.0.1.1</AssemblyVersion>
+    <FileVersion>1.0.1.1</FileVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Toolbox.Core" Version="0.2.6" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="images\toolbox.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>

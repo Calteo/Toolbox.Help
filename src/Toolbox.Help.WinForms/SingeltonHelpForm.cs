@@ -4,7 +4,7 @@ using System.Windows.Forms;
 namespace Toolbox.Help.WinForms
 {
     /// <summary>
-    /// Make a singlton hep form
+    /// Make a singlton help form
     /// </summary>
     public partial class SingeltonHelpForm : Form
     {
@@ -63,6 +63,6 @@ namespace Toolbox.Help.WinForms
             Controls.Add(Browser);
         }
 
-        public WebBrowser Browser { get; set; } 
+        private WebBrowser Browser { get; set; } 
     }
 }
