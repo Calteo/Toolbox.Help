@@ -285,61 +285,61 @@ references:
   isSpec: "True"
   fullName: Toolbox.Help.WinForms.HelpRequestedEventArgs.Url
   nameWithType: HelpRequestedEventArgs.Url
-- uid: Toolbox.Help.WinForms.SingeltonHelpForm
-  name: SingeltonHelpForm
-  href: api/Toolbox.Help.WinForms.SingeltonHelpForm.html
-  commentId: T:Toolbox.Help.WinForms.SingeltonHelpForm
-  fullName: Toolbox.Help.WinForms.SingeltonHelpForm
-  nameWithType: SingeltonHelpForm
-- uid: Toolbox.Help.WinForms.SingeltonHelpForm.Dispose(System.Boolean)
+- uid: Toolbox.Help.WinForms.SingletonHelpForm
+  name: SingletonHelpForm
+  href: api/Toolbox.Help.WinForms.SingletonHelpForm.html
+  commentId: T:Toolbox.Help.WinForms.SingletonHelpForm
+  fullName: Toolbox.Help.WinForms.SingletonHelpForm
+  nameWithType: SingletonHelpForm
+- uid: Toolbox.Help.WinForms.SingletonHelpForm.Dispose(System.Boolean)
   name: Dispose(Boolean)
-  href: api/Toolbox.Help.WinForms.SingeltonHelpForm.html#Toolbox_Help_WinForms_SingeltonHelpForm_Dispose_System_Boolean_
-  commentId: M:Toolbox.Help.WinForms.SingeltonHelpForm.Dispose(System.Boolean)
-  fullName: Toolbox.Help.WinForms.SingeltonHelpForm.Dispose(System.Boolean)
-  nameWithType: SingeltonHelpForm.Dispose(Boolean)
-- uid: Toolbox.Help.WinForms.SingeltonHelpForm.Dispose*
+  href: api/Toolbox.Help.WinForms.SingletonHelpForm.html#Toolbox_Help_WinForms_SingletonHelpForm_Dispose_System_Boolean_
+  commentId: M:Toolbox.Help.WinForms.SingletonHelpForm.Dispose(System.Boolean)
+  fullName: Toolbox.Help.WinForms.SingletonHelpForm.Dispose(System.Boolean)
+  nameWithType: SingletonHelpForm.Dispose(Boolean)
+- uid: Toolbox.Help.WinForms.SingletonHelpForm.Dispose*
   name: Dispose
-  href: api/Toolbox.Help.WinForms.SingeltonHelpForm.html#Toolbox_Help_WinForms_SingeltonHelpForm_Dispose_
-  commentId: Overload:Toolbox.Help.WinForms.SingeltonHelpForm.Dispose
+  href: api/Toolbox.Help.WinForms.SingletonHelpForm.html#Toolbox_Help_WinForms_SingletonHelpForm_Dispose_
+  commentId: Overload:Toolbox.Help.WinForms.SingletonHelpForm.Dispose
   isSpec: "True"
-  fullName: Toolbox.Help.WinForms.SingeltonHelpForm.Dispose
-  nameWithType: SingeltonHelpForm.Dispose
-- uid: Toolbox.Help.WinForms.SingeltonHelpForm.Navigate(System.String)
+  fullName: Toolbox.Help.WinForms.SingletonHelpForm.Dispose
+  nameWithType: SingletonHelpForm.Dispose
+- uid: Toolbox.Help.WinForms.SingletonHelpForm.Navigate(System.String)
   name: Navigate(String)
-  href: api/Toolbox.Help.WinForms.SingeltonHelpForm.html#Toolbox_Help_WinForms_SingeltonHelpForm_Navigate_System_String_
-  commentId: M:Toolbox.Help.WinForms.SingeltonHelpForm.Navigate(System.String)
-  fullName: Toolbox.Help.WinForms.SingeltonHelpForm.Navigate(System.String)
-  nameWithType: SingeltonHelpForm.Navigate(String)
-- uid: Toolbox.Help.WinForms.SingeltonHelpForm.Navigate*
+  href: api/Toolbox.Help.WinForms.SingletonHelpForm.html#Toolbox_Help_WinForms_SingletonHelpForm_Navigate_System_String_
+  commentId: M:Toolbox.Help.WinForms.SingletonHelpForm.Navigate(System.String)
+  fullName: Toolbox.Help.WinForms.SingletonHelpForm.Navigate(System.String)
+  nameWithType: SingletonHelpForm.Navigate(String)
+- uid: Toolbox.Help.WinForms.SingletonHelpForm.Navigate*
   name: Navigate
-  href: api/Toolbox.Help.WinForms.SingeltonHelpForm.html#Toolbox_Help_WinForms_SingeltonHelpForm_Navigate_
-  commentId: Overload:Toolbox.Help.WinForms.SingeltonHelpForm.Navigate
+  href: api/Toolbox.Help.WinForms.SingletonHelpForm.html#Toolbox_Help_WinForms_SingletonHelpForm_Navigate_
+  commentId: Overload:Toolbox.Help.WinForms.SingletonHelpForm.Navigate
   isSpec: "True"
-  fullName: Toolbox.Help.WinForms.SingeltonHelpForm.Navigate
-  nameWithType: SingeltonHelpForm.Navigate
-- uid: Toolbox.Help.WinForms.SingeltonHelpForm.OwnerForm
+  fullName: Toolbox.Help.WinForms.SingletonHelpForm.Navigate
+  nameWithType: SingletonHelpForm.Navigate
+- uid: Toolbox.Help.WinForms.SingletonHelpForm.OwnerForm
   name: OwnerForm
-  href: api/Toolbox.Help.WinForms.SingeltonHelpForm.html#Toolbox_Help_WinForms_SingeltonHelpForm_OwnerForm
-  commentId: P:Toolbox.Help.WinForms.SingeltonHelpForm.OwnerForm
-  fullName: Toolbox.Help.WinForms.SingeltonHelpForm.OwnerForm
-  nameWithType: SingeltonHelpForm.OwnerForm
-- uid: Toolbox.Help.WinForms.SingeltonHelpForm.OwnerForm*
+  href: api/Toolbox.Help.WinForms.SingletonHelpForm.html#Toolbox_Help_WinForms_SingletonHelpForm_OwnerForm
+  commentId: P:Toolbox.Help.WinForms.SingletonHelpForm.OwnerForm
+  fullName: Toolbox.Help.WinForms.SingletonHelpForm.OwnerForm
+  nameWithType: SingletonHelpForm.OwnerForm
+- uid: Toolbox.Help.WinForms.SingletonHelpForm.OwnerForm*
   name: OwnerForm
-  href: api/Toolbox.Help.WinForms.SingeltonHelpForm.html#Toolbox_Help_WinForms_SingeltonHelpForm_OwnerForm_
-  commentId: Overload:Toolbox.Help.WinForms.SingeltonHelpForm.OwnerForm
+  href: api/Toolbox.Help.WinForms.SingletonHelpForm.html#Toolbox_Help_WinForms_SingletonHelpForm_OwnerForm_
+  commentId: Overload:Toolbox.Help.WinForms.SingletonHelpForm.OwnerForm
   isSpec: "True"
-  fullName: Toolbox.Help.WinForms.SingeltonHelpForm.OwnerForm
-  nameWithType: SingeltonHelpForm.OwnerForm
-- uid: Toolbox.Help.WinForms.SingeltonHelpForm.Server
+  fullName: Toolbox.Help.WinForms.SingletonHelpForm.OwnerForm
+  nameWithType: SingletonHelpForm.OwnerForm
+- uid: Toolbox.Help.WinForms.SingletonHelpForm.Server
   name: Server
-  href: api/Toolbox.Help.WinForms.SingeltonHelpForm.html#Toolbox_Help_WinForms_SingeltonHelpForm_Server
-  commentId: P:Toolbox.Help.WinForms.SingeltonHelpForm.Server
-  fullName: Toolbox.Help.WinForms.SingeltonHelpForm.Server
-  nameWithType: SingeltonHelpForm.Server
-- uid: Toolbox.Help.WinForms.SingeltonHelpForm.Server*
+  href: api/Toolbox.Help.WinForms.SingletonHelpForm.html#Toolbox_Help_WinForms_SingletonHelpForm_Server
+  commentId: P:Toolbox.Help.WinForms.SingletonHelpForm.Server
+  fullName: Toolbox.Help.WinForms.SingletonHelpForm.Server
+  nameWithType: SingletonHelpForm.Server
+- uid: Toolbox.Help.WinForms.SingletonHelpForm.Server*
   name: Server
-  href: api/Toolbox.Help.WinForms.SingeltonHelpForm.html#Toolbox_Help_WinForms_SingeltonHelpForm_Server_
-  commentId: Overload:Toolbox.Help.WinForms.SingeltonHelpForm.Server
+  href: api/Toolbox.Help.WinForms.SingletonHelpForm.html#Toolbox_Help_WinForms_SingletonHelpForm_Server_
+  commentId: Overload:Toolbox.Help.WinForms.SingletonHelpForm.Server
   isSpec: "True"
-  fullName: Toolbox.Help.WinForms.SingeltonHelpForm.Server
-  nameWithType: SingeltonHelpForm.Server
+  fullName: Toolbox.Help.WinForms.SingletonHelpForm.Server
+  nameWithType: SingletonHelpForm.Server

@@ -77,11 +77,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Toolbox.Help.WinForms.SingeltonHelpForm.yml",
+      "source_relative_path": "api/Toolbox.Help.WinForms.SingletonHelpForm.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Toolbox.Help.WinForms.SingeltonHelpForm.html",
-          "hash": "nPFJRQSszrQeRfctLc9XuA=="
+          "relative_path": "api/Toolbox.Help.WinForms.SingletonHelpForm.html",
+          "hash": "n29X1HXlh6KLgBbV9eCqCQ=="
         }
       },
       "is_incremental": false,
@@ -93,7 +93,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Toolbox.Help.WinForms.html",
-          "hash": "+E/t1DCP9Qzhdz5cSCjMyA=="
+          "hash": "ORTYHmdh9pAQf0WRuew/hA=="
         }
       },
       "is_incremental": false,
@@ -129,7 +129,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "JazHOGkvHrUlUQ0jWkMiiw=="
+          "hash": "OenHeGvQlaO8fCmiznnc1Q=="
         }
       },
       "is_incremental": false,
