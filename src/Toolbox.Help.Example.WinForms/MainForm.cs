@@ -18,18 +18,18 @@ namespace Toolbox.Help.Example.WinForms
             HelpServer = new HelpServer(GetType(), "Help");
             HelpServer.Handlers["info"] = new InfoHandler();
           
-            SingeltonHelpForm.Server = HelpServer;
-            SingeltonHelpForm.OwnerForm = this;
+            SingletonHelpForm.Server = HelpServer;
+            SingletonHelpForm.OwnerForm = this;
         }
 
         private void HelpProviderHelpRequested(object sender, HelpRequestedEventArgs e)
         {
-            SingeltonHelpForm.Navigate(e.Url);
+            SingletonHelpForm.Navigate(e.Url);
         }
 
         private void ButtonNavigateClick(object sender, EventArgs e)
         {
-            SingeltonHelpForm.Navigate(textBox.Text);
+            SingletonHelpForm.Navigate(textBox.Text);
         }
     }
 }

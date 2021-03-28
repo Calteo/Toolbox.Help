@@ -1,7 +1,7 @@
 ﻿
 namespace Toolbox.Help.WinForms
 {
-    partial class SingeltonHelpForm
+    partial class SingletonHelpForm
     {
         /// <summary>
         /// Required designer variable.

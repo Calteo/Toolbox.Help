@@ -6,10 +6,10 @@ namespace Toolbox.Help.WinForms
     /// <summary>
     /// Make a singlton help form
     /// </summary>
-    public partial class SingeltonHelpForm : Form
+    public partial class SingletonHelpForm : Form
     {
         #region static
-        private static SingeltonHelpForm Form { get; set; }        
+        private static SingletonHelpForm Form { get; set; }        
 
         /// <summary>
         /// Gets or sets the <see cref="HelpServer"/> for the form.
@@ -33,7 +33,7 @@ namespace Toolbox.Help.WinForms
 
             if (Form == null)
             {
-                Form = new SingeltonHelpForm();
+                Form = new SingletonHelpForm();
 
                 if (OwnerForm != null)
                     Form.Text += $" - {OwnerForm.Text}";
@@ -53,7 +53,7 @@ namespace Toolbox.Help.WinForms
         }
         #endregion
 
-        private SingeltonHelpForm()
+        private SingletonHelpForm()
         {
             InitializeComponent();
 
