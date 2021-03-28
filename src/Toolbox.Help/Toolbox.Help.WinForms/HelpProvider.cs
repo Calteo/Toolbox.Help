@@ -21,6 +21,9 @@ namespace Toolbox.Help.WinForms
             InitializeComponent();
         }
 
+        /// <summary>
+        /// Initializes a new instance of the <see cref="HelpProvider"/> class.
+        /// </summary>
         public HelpProvider(IContainer container)
         {
             container.Add(this);
@@ -35,6 +38,11 @@ namespace Toolbox.Help.WinForms
             return extendee is Control && !(extendee is HelpProvider);
         }
 
+        /// <summary>
+        /// Return the help url for a given control.
+        /// </summary>
+        /// <param name="control"></param>
+        /// <returns></returns>
         [Category("Help"), DefaultValue(""), Description("Url inside the help site.")]
         public string GetHelpUrl(Control control)
         {
@@ -42,6 +50,11 @@ namespace Toolbox.Help.WinForms
             return url;
         }
 
+        /// <summary>
+        /// Sets the help url for a control.
+        /// </summary>
+        /// <param name="control"></param>
+        /// <param name="url"></param>
         public void SetHelpUrl(Control control, string url)
         {    
             if (url.IsEmpty())
@@ -70,7 +83,7 @@ namespace Toolbox.Help.WinForms
         }
 
         /// <summary>
-        /// Gets raised if the user hits F1 on a control that has an Url registered.
+        /// Gets raised if the user hits F1 on a control that has an url registered.
         /// </summary>
         [Category("Help"), Description("Gets raised if the user requests help for a control.")]
         public event EventHandler<HelpRequestedEventArgs> HelpRequested;

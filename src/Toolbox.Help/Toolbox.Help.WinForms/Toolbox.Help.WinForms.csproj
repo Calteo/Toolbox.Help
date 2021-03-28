@@ -10,4 +10,8 @@
     <PackageReference Include="Toolbox.Core" Version="0.2.6" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Toolbox.Help\Toolbox.Help.csproj" />
+  </ItemGroup>
+
 </Project>

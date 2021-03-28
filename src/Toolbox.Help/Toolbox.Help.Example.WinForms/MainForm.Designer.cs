@@ -1,4 +1,6 @@
 ﻿
+using System;
+
 namespace Toolbox.Help.Example.WinForms
 {
     partial class MainForm
@@ -89,14 +91,14 @@ namespace Toolbox.Help.Example.WinForms
             this.tableLayoutPanel.RowCount = 2;
             this.tableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 34F));
             this.tableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel.Size = new System.Drawing.Size(800, 450);
+            this.tableLayoutPanel.Size = new System.Drawing.Size(800, 94);
             this.tableLayoutPanel.TabIndex = 0;
             // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(800, 94);
             this.Controls.Add(this.tableLayoutPanel);
             this.helpProvider.SetHelpUrl(this, "index.html");
             this.Name = "MainForm";
