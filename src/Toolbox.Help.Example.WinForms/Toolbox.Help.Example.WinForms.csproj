@@ -15,6 +15,7 @@
   <ItemGroup>
     <None Remove="Help\button.html" />
     <None Remove="Help\edit.html" />
+    <None Remove="Help\main.scss" />
   </ItemGroup>
 
   <ItemGroup>

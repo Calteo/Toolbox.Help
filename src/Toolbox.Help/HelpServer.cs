@@ -27,6 +27,7 @@ namespace Toolbox.Help
 
             // insert default handlers
             Handlers["html"] = new HttpHandler();
+            Handlers["scss"] = new ScssHandler();
         }
 
         /// <summary>
