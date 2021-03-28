@@ -29,6 +29,8 @@ namespace Toolbox.Help.WinForms
         {
             if (Server == null) throw new InvalidOperationException("Missing Server.");
 
+            if (!Server.Enabled) Server.Enabled = true;
+
             if (Form == null)
             {
                 Form = new SingeltonHelpForm();
